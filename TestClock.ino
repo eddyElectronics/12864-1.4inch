@@ -75,7 +75,7 @@ void setup(void) {
   //digitalWrite(6, 0);	
 
   u8g2.begin();  
-    u8g2.setContrast(200);
+    u8g2.setContrast(50);
 }
 
 uint8_t m = 24;

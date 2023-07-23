@@ -76,6 +76,7 @@ void setup(void) {
 
   u8g2.begin();  
     u8g2.setContrast(50);
+    u8g2.setDisplayRotation(U8G2_R2);
 }
 
 uint8_t m = 24;
